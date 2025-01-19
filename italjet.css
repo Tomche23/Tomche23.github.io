@@ -1,0 +1,130 @@
+body{
+    font-size: large;
+    font-family: Arial;
+}
+.con{
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+    text-decoration: none;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+#rightbar{
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+    text-decoration: none;
+    padding-left: 10px;
+    margin-top: 5px;
+    
+}
+#bar{
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    border-bottom: 10px solid rgb(190, 190, 190);
+}
+.home{
+    margin-left: 10px;
+
+}
+#rightbar:hover{
+    border-bottom: 2px solid rgb(190, 190, 190);
+    color: rgb(190, 190, 190);
+
+}
+.con:hover{
+    border-bottom: 2px solid rgb(190, 190, 190);
+    color: rgb(190, 190, 190);
+}
+#motori{
+    padding: 20px;
+    margin: 50px;
+    display: flex;
+}
+#tekst{
+    margin-left: 100px;
+    display: inline;
+}
+#wow{
+    color: rgb(218, 0, 0);
+    display: inline;
+}
+#crta{
+    text-decoration: line-through;
+    font-weight: normal; 
+    display: inline;
+}
+
+#motori{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin-bottom: 100px;
+}
+#slika{
+    border-right: 2px solid black;
+}
+#tekst{
+    width: 980px;
+
+}
+#lute > h2{
+    display: inline;
+}
+#na{
+    font-weight: normal;
+}
+#rati{
+    font-weight: normal;
+}
+#kam{
+    color: rgb(255, 67, 67);
+}
+#kolku{
+    color: rgb(255, 67, 67);
+}
+#kama{
+    font-weight: normal;
+}
+#nema{
+    color: rgb(250, 40, 40);
+    font-weight: normal;
+}
+#lute{
+    margin-left: 140px;
+}
+#sl{
+    margin-bottom: 500px;
+    display: inline;
+}
+#so{
+    display: inline;
+}
+#back{
+    background-color: rgb(190, 190, 190);
+    width: 70px;
+    padding: 15px;
+    border: 0.5px solid black;
+    color: rgb(70, 70, 70);
+    margin: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+#buy{
+    border-radius: 10px;
+    background-color: rgb(247, 72, 72);
+    color: white;
+    padding: 10px;
+    display: inline;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: left;
+    width: 100px;
+    transition: 0.2s ease-out;
+    
+}
+#buy:hover{
+    background-color: rgb(25, 185, 25);
+}
