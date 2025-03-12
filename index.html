@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kalkulacija</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="fizika.css">
+</head>
+<style>
+</style>
+<body>
+
+<div id="se">
+  <div id="gore">
+    <h2 id="s">Sto sakas da izracunas?</h2>
+  </div>
+  <div id="kopcinja">
+    <button onclick="KS()">Kulonova sila</button>
+    <button onclick="KE()">Kolicestvo Elektricestvo</button>
+  </div>
+  <div id="KS" style="display: none;">
+    <input type="text" id="q1" class="i3" placeholder="Q1 ex: 5e-6">
+    <input type="text" id="q2" class="i3" placeholder="Q2 ex: -3e-6">
+    
+    <input type="text" id="r" class="i3" placeholder="R ex: 0.2">
+    <button style="margin-top: 30px;" onclick="KSR()">Submit</button>
+    <h2 id="rezultat"></h2>
+
+  </div>
+  <div id="KE" style="display: none;">
+    <input type="text" id="p" class="i3" placeholder="P jacina (W)">
+    <input type="text" id="t" class="i3" placeholder="t vreme (h)">
+    <br><button style="margin-top: 30px;"onclick="KER()">Submit</button>
+    <h2 id="rezultat2"></h2>
+  </div>
+
+</div>
+</body>
+<script src="fizika.js"></script>
+</html>
